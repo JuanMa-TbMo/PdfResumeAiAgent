@@ -1,6 +1,6 @@
-# main.py
-from pdfReader import  root
-
+from pdf_summarizer_app import PDFSummarizerApp
 
 if __name__ == "__main__":
-    root.mainloop()
+    app = PDFSummarizerApp()
+    app.run()
+    
